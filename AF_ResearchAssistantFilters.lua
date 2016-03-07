@@ -14,9 +14,9 @@ local function GetFilterCallbackForResearch(researchType)
 end
 
 local ResearchAssistantDropdownCallbacks = {
-	[1] = { name = "Researchable", filterCallback = GetFilterCallbackForResearch("researchable") },
-	[2] = { name = "Duplicate", filterCallback = GetFilterCallbackForResearch("duplicate") },
-	[3] = { name = "Known", filterCallback = GetFilterCallbackForResearch("known") },
+	[1] = {name = "Researchable", filterCallback = GetFilterCallbackForResearch("researchable")},
+	[2] = {name = "Duplicate", filterCallback = GetFilterCallbackForResearch("duplicate")},
+	[3] = {name = "Known", filterCallback = GetFilterCallbackForResearch("known")},
 }
 
 local en = {
